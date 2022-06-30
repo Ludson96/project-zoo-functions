@@ -8,14 +8,14 @@ function countAnimals(animal) {
     });
     return teste;
   }
-  const { specie, sex = 'male', sex: a1 = 'female' } = animal;
+  const { specie, sex } = animal;
   const exemplo = data.species.find((element) => element.name === specie);
-  const final = exemplo.residents.filter((element) => element.sex === sex && element.sex === a1);
-  console.log(a1);
-  console.log(specie);
-  console.log(sex);
-  console.log(final);
-  return final.length;
+  if (sex) {
+    const teste = exemplo.residents.filter((element) => element.sex === sex);
+    console.log('sex preenchido');
+    return teste.length;
+  }
+  return exemplo.residents.length;
 }
 
 console.log(countAnimals({ specie: 'giraffes' }));
