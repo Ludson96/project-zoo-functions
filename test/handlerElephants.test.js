@@ -16,4 +16,10 @@ describe('Testes da função HandlerElephants', () => {
   it('Verificando se ao passarmos a string \'averageAge\' o que retorna', () => {
     expect(handlerElephants('averageAge')).toEqual(10.5);
   });
+  it('Passada uma string que não contempla uma funcionalidade deve retorna', () => {
+    expect(handlerElephants('qualquercoisa')).toBeNull();
+  });
+  it('Passada uma string que não contempla uma funcionalidade deve retorna', () => {
+    expect(handlerElephants('popularity')).toBe(5);
+  });
 });
