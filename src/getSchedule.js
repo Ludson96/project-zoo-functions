@@ -37,17 +37,13 @@ const animais2 = ['frogs', 'snakes', 'elephants', 'giraffes'];
 const animaisTotal = [...animais1, ...animais2];
 
 function getSchedule(scheduleTarget) {
-  if (scheduleTarget === undefined) {
-    return dias;
-  }
+  if (scheduleTarget === undefined) return dias;
   if (dias[scheduleTarget]) {
     return {
       [scheduleTarget]: dias[scheduleTarget],
     };
   }
-  if (!animaisTotal.includes(scheduleTarget)) {
-    return dias;
-  }
+  if (!animaisTotal.includes(scheduleTarget)) return dias;
 
   const animal = data.species.find((element) => element.name === scheduleTarget);
   return animal.availability;

@@ -12,18 +12,9 @@ function countEntrants(entrants) {
 }
 
 function calculateEntry(entrants) {
-  if (entrants === undefined) {
-    return 0;
-  }
-  const objeto = Object.keys(entrants).length;
-  if (objeto === 0) {
-    return 0;
-  }
+  if (entrants === undefined || Object.keys(entrants).length < 1) return 0;
   const result = countEntrants(entrants);
-  const valorChild = result.child * 20.99;
-  const valorAdult = result.adult * 49.99;
-  const valorSenior = result.senior * 24.99;
-  const valorTotal = valorChild + valorAdult + valorSenior;
+  const valorTotal = (result.child * 20.99) + (result.adult * 49.99) + (result.senior * 24.99);
   return valorTotal;
 }
 

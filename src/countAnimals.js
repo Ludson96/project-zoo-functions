@@ -9,15 +9,12 @@ function countAnimals(animal) {
     return teste;
   }
   const { specie, sex } = animal;
-  const exemplo = data.species.find((element) => element.name === specie);
+  const speciesFound = data.species.find((element) => element.name === specie);
   if (sex) {
-    const teste = exemplo.residents.filter((element) => element.sex === sex);
-    console.log('sex preenchido');
-    return teste.length;
+    const speciesSex = speciesFound.residents.filter((element) => element.sex === sex);
+    return speciesSex.length;
   }
-  return exemplo.residents.length;
+  return speciesFound.residents.length;
 }
-
-console.log(countAnimals({ specie: 'giraffes' }));
 
 module.exports = countAnimals;
