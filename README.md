@@ -50,7 +50,7 @@ Sou responsável por desenvolver funções que buscam informações sobre os ani
 
 <details>
 
-## 1. Implemente a função `getSpeciesByIds`
+### 1. Implemente a função `getSpeciesByIds`
 
 <details>
   <summary>
@@ -79,7 +79,7 @@ Sou responsável por desenvolver funções que buscam informações sobre os ani
 
 ---
 
-## 2. Implemente a função `getAnimalsOlderThan`
+#### 2. Implemente a função `getAnimalsOlderThan`
 
 <details>
   <summary>
@@ -99,7 +99,7 @@ Sou responsável por desenvolver funções que buscam informações sobre os ani
 
 ---
 
-## 3. Implemente a função `getEmployeeByName`
+### 3. Implemente a função `getEmployeeByName`
 
 <details>
   <summary>
@@ -133,7 +133,7 @@ Sou responsável por desenvolver funções que buscam informações sobre os ani
 
 ---
 
-## 4. Implemente a função `getRelatedEmployees`
+### 4. Implemente a função `getRelatedEmployees`
 
 <details>
   <summary>
@@ -187,7 +187,7 @@ Considerando a boa prática de dividir o código em partes menores, o arquivo te
 
 ---
 
-## 5. Implemente a função `countAnimals`
+### 5. Implemente a função `countAnimals`
 
 <details>
   <summary>
@@ -223,7 +223,7 @@ A função `countAnimals` é responsável por contar a quantidade e animais que 
 
 ---
 
-## 6. Obtenha ao menos 80% de cobertura de testes na função `handlerElephants`
+### 6. Obtenha ao menos 80% de cobertura de testes na função `handlerElephants`
 
 <details>
   <summary>
@@ -276,7 +276,7 @@ Essa função retorna informações referentes aos elefantes conforme o argument
 
 ---
 
-## 7. Obtenha ao menos 90% de cobertura de testes na função `handlerElephants`
+### 7. Obtenha ao menos 90% de cobertura de testes na função `handlerElephants`
 
 <details>
   <summary>
@@ -329,7 +329,7 @@ Essa função retorna informações referentes aos elefantes conforme o argument
 
 ---
 
-## 8. Implemente a função `calculateEntry`
+### 8. Implemente a função `calculateEntry`
 
 <details>
   <summary>
@@ -417,7 +417,7 @@ Na função `calculateEntry`:
 
 ---
 
-## 9. Implemente a função `getSchedule`
+### 9. Implemente a função `getSchedule`
 
 <details>
   <summary>
@@ -484,7 +484,7 @@ As informações dos horários dos animais devem ser disponibilizadas em uma con
 
 ---
 
-## 10. Implemente a função `getOldestFromFirstSpecies`
+### 10. Implemente a função `getOldestFromFirstSpecies`
 
 <details>
   <summary>
@@ -509,7 +509,7 @@ A função recebe um parâmetro `id` referente à pessoa colaboradora e a partir
 
 ---
 
-## 11. Implemente a função `getEmployeesCoverage`
+### 11. Implemente a função `getEmployeesCoverage`
 
 <details>
   <summary>
@@ -647,7 +647,7 @@ Você pode ler mais sobre a [função construtora **Error**, neste link.](https:
 
 ---
 
-## 12. Obtenha ao menos 85% de cobertura de testes na função `getOpeningHours`
+### 12. Obtenha ao menos 85% de cobertura de testes na função `getOpeningHours`
 
 <details>
   <summary>
@@ -711,7 +711,7 @@ Esta função recebe como argumentos um dia da semana e um horário, e retorna u
 
 ---
 
-## 13. Obtenha ao menos 95% de cobertura de testes na função `getOpeningHours`
+### 13. Obtenha ao menos 95% de cobertura de testes na função `getOpeningHours`
 
 <details>
   <summary>
@@ -775,7 +775,7 @@ Esta função recebe como argumentos um dia da semana e um horário, e retorna u
 
 ---
 
-## 14. Implemente a função `getAnimalMap`
+### 14. Implemente a função `getAnimalMap`
 
 <details>
   <summary>
@@ -902,9 +902,9 @@ Para isso:
 
 ---
 
-# Requisitos Bônus
+## Requisitos Bônus
 
-## 15. Obtenha 100% de cobertura de testes na função `handlerElephants`
+### 15. Obtenha 100% de cobertura de testes na função `handlerElephants`
 
 <details>
   <summary>
@@ -960,7 +960,7 @@ Essa função retorna informações referentes aos elefantes conforme o argument
 
 ---
 
-## 16. Obtenha ao menos 100% de cobertura de testes na função `getOpeningHours`
+### 16. Obtenha ao menos 100% de cobertura de testes na função `getOpeningHours`
 
 <details>
   <summary>
