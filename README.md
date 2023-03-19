@@ -2,7 +2,7 @@
 
 ## Módulo: FUNDAMENTOS
 
- Repositório possuí projeto desenvolvido no período que estive na **Trybe**, abordando sobre conceitos de criação de várias funções para atender aos requisitos propostos e garantir que todas as funções passem nos testes unitários.
+ Repositório possuí projeto desenvolvido no período que estive na **Trybe**, abordando conceitos Higher Order Functions e ES6.
 
 ## Informações de aprendizados
 
