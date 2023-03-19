@@ -1,4 +1,4 @@
-# Repositório do projeto Zoo Functions
+# Repositório do projeto Zoo Functions 🦁 🐯 🐻 🐧 🐘 🦒
 
 ## Módulo: FUNDAMENTOS
 
